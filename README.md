@@ -2,6 +2,7 @@
 The Canadian Small Lake Model, implemented in MATLAB for offline use
 
 Written by M.G.Clark, for details contact dr.mg.clark@gmail.com
+Current citation is in review, for now, please email me if you publish using this model so I can keep track of the users.
 
 This is an early draft of the project to translate the Canadian Small Lakes Model from FORTRAN to MATLAB.  The original code was provided by Murray MacKay and is detailed in MacKay 2012, MacKay et al. 2016, and MacKay 2019 (see below).  It is currently working for both example files provided (Lake239.ini/Lake239.met and PitLake2019.ini/PitLake2019.met).  There is a reasonable fit between the MATLAB and the FORTRAN models.  More details will be provided in the near future.    Currently the code is broken up into a few sub routes and the main RunLake() function.  The subroutines are described as follows:
 
